@@ -86,7 +86,7 @@ const addToken = async () => {
           address:
             config.networks[web3ProvidersStore.networkId].contractAddressesMap
               .mor,
-          symbol: 'MOR',
+          symbol: 'AGEN',
           decimals: 18,
           image: window.location.origin.concat('/branding/mor-token-image.png'),
         },

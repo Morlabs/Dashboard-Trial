@@ -64,7 +64,7 @@ const {
 const barIndicators = computed<InfoBarType.Indicator[]>(() => [
   {
     title: t('home-page.private-pool-view.daily-reward-title'),
-    value: dailyReward.value ? `${formatEther(dailyReward.value)} MOR` : '',
+    value: dailyReward.value ? `${formatEther(dailyReward.value)} AGEN` : '',
   },
   {
     title: t('home-page.private-pool-view.started-at-title'),
@@ -92,7 +92,7 @@ const dashboardIndicators = computed<InfoDashboardType.Indicator[]>(() => [
     iconName: ICON_NAMES.arbitrum,
     title: t('home-page.private-pool-view.available-to-claim-title'),
     value: currentUserReward.value
-      ? `${formatEther(currentUserReward.value)} MOR`
+      ? `${formatEther(currentUserReward.value)} AGEN`
       : '',
   },
 ])

@@ -78,7 +78,7 @@ const balances = computed<Balance[]>(() => [
   {
     logoIconName: ICON_NAMES.morpheus,
     value: web3ProvidersStore.balances.mor
-      ? `${formatEther(web3ProvidersStore.balances.mor)} MOR`
+      ? `${formatEther(web3ProvidersStore.balances.mor)} AGEN`
       : '',
     tokenIconName: ICON_NAMES.arbitrum,
   },

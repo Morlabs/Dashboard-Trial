@@ -13,7 +13,7 @@
   "claim-modal": {
     "title": "Claim rewards",
     "subtitle": "You are about to Claim Rewards. Your current reward - {reward}",
-    "reward": "{amount} MOR."
+    "reward": "{amount} AGEN."
   },
   "connect-wallet-button": {
     "connect": "Connect Wallet"
@@ -49,7 +49,7 @@
       "claim-at-title": "Claim is locked until",
       "claim-at-note": "Note: Claim is locked until the specified time",
       "available-to-claim-title": "Available to claim",
-      "claim-btn": "Claim MOR"
+      "claim-btn": "Claim AGEN"
     },
     "public-pool-view": {
       "info-bar": {
@@ -72,7 +72,7 @@
       "withdraw-btn": "Withdraw stETH",
       "user-deposit-title": "Your deposit",
       "available-to-claim-title": "Available to claim",
-      "claim-btn": "Claim MOR",
+      "claim-btn": "Claim AGEN",
       "dashboard-description--0": "Upon withdrawal, your deposited stETH will be sent to your address. In case of claim, tokens will be minted in the Arbitrum One network. This may take some time.",
       "dashboard-note--0": "Note: You can withdraw your stETH {daysCount} days after deposit."
     }
@@ -115,10 +115,10 @@
   },
   "zero-pool-description": {
     "list": {
-      "1": "Deposit stETH (via ETH) to earn MOR tokens",
+      "1": "Deposit stETH (via ETH) to earn AGEN tokens",
       "2": "stETH can be withdrawn after day 7",
-      "3": "Claim your MOR tokens starting May 8th",
-      "4": "MOR tokens are rewarded on Arbitrum"
+      "3": "Claim your AGEN tokens starting May 8th",
+      "4": "AGEN tokens are rewarded on Base"
     },
     "details": "Details on"
   },
